@@ -37,9 +37,9 @@ const PromptUser = ({handleChange, imageSource, OnButtonClick,  userObject}) => 
             <InputItem className = 'graduationYear' onChange = {handleChange} label = 'Graduation Year' name = 'graduationYear' placeholder = 'Enter Your Graduation Year'/>
             <InputItem className = 'accomplishments' onChange = {handleChange} label = 'Accomplishment' name = 'accomplishment' placeholder = 'List One Major Accomplishment'/>
             <InputItem className = 'university' onChange = {handleChange} label = 'University' name ='university' placeholder = 'Enter University Name'/>
-            <InputItem className = 'profile' onChange = {handleChange}  placeholder = 'Write About Your Self' name = 'Profile' isTextArea = {true}/>
+            <InputItem className = 'profile' onChange = {handleChange}  placeholder = 'Write About YourSelf' name = 'Profile' isTextArea = {true}/>
            
-            {/*< InputItem className = 'profile' onChange = {handleChange} placeholder = 'Write About Your Self' name = 'Profile' isTextArea = {true}/> */}
+            {/*< InputItem className = 'profile' onChange = {handleChange} placeholder = 'Write About YourSelf' name = 'Profile' isTextArea = {true}/> */}
  
             <button className = 'generate-button' onClick={() => {
                 onButtonClick()
